@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind and daisy link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- custom color -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <!-- font awesom -->
+
+
+    <script src="https://kit.fontawesome.com/9d06434b46.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- custom style -->
+
+    <style>
+        .manrof {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="manrof">
+
+    <header class="container mx-auto">
+
+        <div class="hero  ">
+            <div class="hero-content flex-col lg:flex-row">
+                <div class="">
+                    <h1 class="text-5xl  font-extrabold">Box Office News!</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div class="">
+                    <img src="./images/banner.png" class="max-w-sm rounded-lg " />
+
+                    <div class="-mt-20 flex items-center p-3 gap-4 bg-white w-60  shadow-md rounded-md">
+                        <i class="fa-solid fa-star  text-[#FFC850]"></i>
+                        <div>
+                            <h1 class="text-3xl font-extrabold text-black">5.00</h1>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container mx-auto text-center mt-[100px]">
+
+        <div>
+            <h1 class="text-3xl font-extrabold">
+                Our Featured Products
+            </h1>
+            <p class="mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered
+                <br>alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.
+            </p>
+        </div>
+
+
+        <div class="mt-5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-4 gap-3">
+            <div class=" mx-auto mt-2 card w-64 bg-[#F4F4F4] ">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-extrabold text-2xl text-[#1C1C1C]">Milk Tea</h2>
+                    <p class="text-[#777] font-semibold text-sm">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+            </div>
+            <div class="mx-auto mt-2 card   w-64 bg-[#F4F4F4]  ">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-extrabold text-2xl text-[#1C1C1C]">Milk Tea</h2>
+                    <p class="text-[#777] font-semibold text-sm">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+            </div>
+            <div class="mx-auto mt-2 card w-64 bg-[#F4F4F4] ">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-extrabold text-2xl text-[#1C1C1C]">Milk Tea</h2>
+                    <p class="text-[#777] font-semibold text-sm">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+            </div>
+            <div class="mx-auto mt-2 card w-64 bg-[#F4F4F4] ">
+                <figure class="px-10 pt-10">
+                    <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title font-extrabold text-2xl text-[#1C1C1C]">Milk Tea</h2>
+                    <p class="text-[#777] font-semibold text-sm">Creamer could be replaced <br> by fresh milk</p>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
